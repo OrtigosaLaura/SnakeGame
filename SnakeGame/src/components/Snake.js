@@ -8,7 +8,6 @@ import{
     HEADER_HEIGHT,
     PIXEL,
     SPEED,
-
 } from "../consts";
 
 const Snake = ({ snake, top }) => {
@@ -37,3 +36,5 @@ const Snake = ({ snake, top }) => {
         </>
     )
 }
+
+export default Snake
